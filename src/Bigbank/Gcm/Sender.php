@@ -14,7 +14,7 @@ class Sender
      *
      * @var string
      */
-    private $gcmUrl = 'https://android.googleapis.com/gcm/send';
+    private $gcmUrl = 'https://gcm-http.googleapis.com/gcm/send';
 
     /**
      * Path to CA file (due to cURL 7.10 changes; you can get it from here: http://curl.haxx.se/docs/caextract.html)
